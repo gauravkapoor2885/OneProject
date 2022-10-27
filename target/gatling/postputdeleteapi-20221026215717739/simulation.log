@@ -1,0 +1,31 @@
+RUN	com.gatling.tests.api.PostPutDeleteAPI	postputdeleteapi	1666821437739	 	3.6.1
+ERROR	create user req: Failed to build request: No baseUrl defined but provided url is relative : /users 	1666821439341
+USER	Create User	START	1666821439333
+USER	Update User	START	1666821439334
+REQUEST		update user	1666821439366	1666821440067	KO	jsonPath($.name).find.is(John), but actually found morpheus
+USER	Update User	END	1666821440130
+ERROR	create user req: Failed to build request: No baseUrl defined but provided url is relative : /users 	1666821440321
+USER	Create User	START	1666821440321
+USER	Update User	START	1666821440321
+USER	Create User	END	1666821440353
+REQUEST		update user	1666821440322	1666821440658	KO	jsonPath($.name).find.is(John), but actually found morpheus
+USER	Update User	END	1666821440659
+ERROR	create user req: Failed to build request: No baseUrl defined but provided url is relative : /users 	1666821441324
+USER	Create User	END	1666821441324
+USER	Create User	START	1666821441324
+USER	Update User	START	1666821441324
+REQUEST		update user	1666821441324	1666821441646	KO	jsonPath($.name).find.is(John), but actually found morpheus
+USER	Update User	END	1666821441647
+ERROR	create user req: Failed to build request: No baseUrl defined but provided url is relative : /users 	1666821442329
+USER	Create User	START	1666821442329
+USER	Create User	END	1666821442329
+USER	Update User	START	1666821442329
+REQUEST		update user	1666821442330	1666821442675	KO	jsonPath($.name).find.is(John), but actually found morpheus
+USER	Update User	END	1666821442676
+ERROR	create user req: Failed to build request: No baseUrl defined but provided url is relative : /users 	1666821443321
+USER	Create User	START	1666821443321
+USER	Update User	START	1666821443321
+USER	Create User	END	1666821443336
+REQUEST		update user	1666821443322	1666821443666	KO	jsonPath($.name).find.is(John), but actually found morpheus
+USER	Update User	END	1666821443667
+USER	Create User	END	1666821444325
